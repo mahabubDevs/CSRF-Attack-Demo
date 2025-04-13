@@ -1,0 +1,54 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules
+pnpm-lock.yaml
+
+# Optional build artifacts
+dist
+build
+.parcel-cache
+.turbo
+
+# Environment variables
+.env
+.env.*
+!.env.example 
+
+# Production build
+.next
+out
+
+# IDE and editor specific
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.vim
+*.DS_Store
+
+# Testing
+coverage
+*.testresults
+
+# Package lock files 
+# package-lock.json
+# yarn.lock
+
+# OS generated files
+Thumbs.db
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+desktop.ini
+
+# Other
+.DS_Store?
